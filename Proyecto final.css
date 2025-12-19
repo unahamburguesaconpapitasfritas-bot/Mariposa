@@ -1,0 +1,196 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Arial', sans-serif;
+}
+
+
+body {
+background-color: #fefcfa;
+color: #000000;
+line-height: 1.6;
+padding: 20px;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+.mariposa {
+background-image: url(mariposa3.png);
+margin-left: 40px;
+margin-right: 40px;
+background-color: rgba(255, 255, 255, 0.7);
+background-blend-mode: lighten;
+background-size: cover;
+}
+
+.rosa {
+background-image: url(rosas3.png);
+margin-left: 40px;
+margin-right: 40px;
+background-color: rgba(255, 255, 255, 0.7);
+background-blend-mode: lighten;
+background-size: cover;
+}
+
+.summer {
+background-image: url(verano3.png);
+margin-left: 40px;
+margin-right: 40px;
+background-color: rgba(255, 255, 255, 0.7);
+background-blend-mode: lighten;
+background-size: cover;
+}
+
+.temp {
+background-image: url(season2.png);
+margin-left: 40px;
+margin-right: 40px;
+background-color: rgba(255, 255, 255, 0.7);
+background-blend-mode: lighten;
+background-size: cover;
+}
+
+
+h1 {
+font-size: 5em;
+font-weight: 700;
+color: #470909;
+text-align: center;
+margin-bottom: 20px;
+letter-spacing: 1px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+font-size: 1.8em;
+font-weight: 600;
+color: #020202;
+margin-bottom: 10px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+p {
+font-size: 1em;
+color: #000000;
+margin-bottom: 20px;
+text-align: justify;
+line-height: 1.8;
+}
+
+
+img {
+width: 100%;
+max-width: 600px;
+display: block;
+margin: 20px auto;
+border-radius: 8px;
+}
+
+
+table {
+width: 100%;
+margin-top: 20px;
+border-collapse: collapse;
+text-align: left;
+}
+
+
+td {
+padding: 12px 15px;
+font-size: 1.1em;
+border-bottom: 1px solid #ddd;
+}
+
+
+a {
+text-decoration: none;
+color: #5b5b5b;
+font-weight: 600;
+transition: color 0.3s ease;
+}
+
+a:hover {
+color: #c92d2d;
+}
+
+
+tr:nth-child(odd) {
+background-color: #fafafa;
+}
+
+
+tr:hover {
+background-color: #f2f2f2;
+}
+
+
+hr {
+border: 0;
+border-top: 1px solid #272727;
+margin: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+    font-size: 2em;
+    }
+
+    h3 {
+    font-size: 1.5em;
+    }
+
+    p {
+    font-size: 0.9em;
+    }
+
+    table, td {
+    width: 100%;
+    display: block;
+    }
+
+    td {
+    margin-bottom: 15px;
+    }
+
+    img {
+    max-width: 100%;
+    }
+}
+
+
+.contenedor {
+display: flex; 
+align-items: center; 
+}
+
+.imagen {
+width: 150px; 
+margin-right: 40px; 
+float: left;
+}
+
+.titulo-reseñas {
+  display: flex;
+  align-items: center; /* alinea verticalmente */
+  gap: 10px; /* espacio entre el título y las estrellas */
+}
+
+.titulo-reseñas h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.stars {
+  font-size: 1.5rem;
+  color: gold;
+  letter-spacing: 2px;
+}
+
